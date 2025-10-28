@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.30687fe1.css",
-    "main.js": "/portfolio/static/js/main.494eae65.js",
+    "main.css": "/portfolio/static/css/main.28d4a9f3.css",
+    "main.js": "/portfolio/static/js/main.43adaae4.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/singlePlayerPic.png": "/portfolio/static/media/singlePlayerPic.40411f6ae0925e9cde2e.png",
     "static/media/onlinepic.png": "/portfolio/static/media/onlinepic.1d0751e4c53e5aa54a97.png",
@@ -25,17 +25,21 @@
     "static/media/primeicons.eot": "/portfolio/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
     "static/media/primeicons.woff": "/portfolio/static/media/primeicons.8931fda1930c3bd21e96.woff",
     "static/media/primeicons.ttf": "/portfolio/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/ucf_academics.png": "/portfolio/static/media/ucf_academics.ac06ed08a4f00efc9bd5.png",
     "static/media/GuitarP.png": "/portfolio/static/media/GuitarP.75cba629947487d0718f.png",
+    "static/media/morgan_stanley.jpg": "/portfolio/static/media/morgan_stanley.8babd64e6e06a039ab21.jpg",
     "static/media/gameJamPic.png": "/portfolio/static/media/gameJamPic.c54890f352e1f757b669.png",
+    "static/media/ucf.jpg": "/portfolio/static/media/ucf.492ea48cc61f234c6680.jpg",
     "static/media/primeicons.woff2": "/portfolio/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "static/media/mthree_email.png": "/portfolio/static/media/mthree_email.ec354f0f5fd6cb0b6f8e.png",
     "static/media/PalPic.png": "/portfolio/static/media/PalPic.f31a3f3f01195a73cd32.png",
     "index.html": "/portfolio/index.html",
-    "main.30687fe1.css.map": "/portfolio/static/css/main.30687fe1.css.map",
-    "main.494eae65.js.map": "/portfolio/static/js/main.494eae65.js.map",
+    "main.28d4a9f3.css.map": "/portfolio/static/css/main.28d4a9f3.css.map",
+    "main.43adaae4.js.map": "/portfolio/static/js/main.43adaae4.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30687fe1.css",
-    "static/js/main.494eae65.js"
+    "static/css/main.28d4a9f3.css",
+    "static/js/main.43adaae4.js"
   ]
 }
