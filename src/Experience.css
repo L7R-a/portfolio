@@ -27,3 +27,71 @@
     border-right: none !important;
     
 }
+
+.experience-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-4px);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-left: 4px solid #555;
+  padding-left: 0.5rem;
+  color: #222;
+  text-align: left; 
+}
+
+.role {
+  font-weight: 500;
+  color: #555;
+}
+
+.description {
+  margin: 0.5rem 0;
+  color: #333;
+}
+
+.skills {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.skill-tag {
+  background: #f1f3f5;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem; /* space between logo and title */
+  margin-bottom: 0.8rem;
+}
+
+.experience-logo {
+  width: 36px; /* small icon size */
+  height: 36px;
+  object-fit: contain;
+  border-radius: 6px; /* optional: makes it slightly rounded */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* optional for depth */
+}

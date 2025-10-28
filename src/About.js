@@ -11,10 +11,11 @@ import {
 } from "react-bootstrap";
 import "./About.css";
 import { FaGraduationCap } from "react-icons/fa6";
-import { MdSunny } from "react-icons/md";
+import { FaCity } from "react-icons/fa";
 import { FaCheckCircle } from "react-icons/fa";
 import AboutPic from "./Images/AboutPic.jpg";
 import { Link } from 'react-router-dom';
+import { ImBriefcase } from "react-icons/im";
 
 const About = () => {
   return (
@@ -58,12 +59,21 @@ const About = () => {
             </Col>
             <Col md={9} className="rightColAbout">
               <Row>
-                <Col md={4}>
+                <Col md={3}>
                   <Card className="aboutCards text-center">
                     <Card.Body>
-                      <MdSunny size={36} />
+                      <FaCity  size={36} />
                       <Card.Title>Based in</Card.Title>
-                      <Card.Subtitle className="mb-2 text-muted">Orlando, FL</Card.Subtitle>
+                      <Card.Subtitle className="mb-2 text-muted">West New York, NJ</Card.Subtitle>
+                    </Card.Body>
+                  </Card>
+                </Col>
+                <Col md={3}>
+                  <Card className="aboutCards text-center">
+                    <Card.Body>
+                      <ImBriefcase   size={36} />
+                      <Card.Title>Professional Experience</Card.Title>
+                      <Card.Subtitle className="mb-2 text-muted">1.3 Years</Card.Subtitle>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -72,7 +82,7 @@ const About = () => {
                     <Card.Body>
                       <FaCheckCircle size={36} />
                       <Card.Title>GPA</Card.Title>
-                      <Card.Subtitle className="mb-2 text-muted">3.95</Card.Subtitle>
+                      <Card.Subtitle className="mb-2 text-muted">3.96</Card.Subtitle>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -88,22 +98,19 @@ const About = () => {
               </Row>
               <Row className="infoRow">
                 <p className="aboutMeInfo">
-                  Hello! I’m Diego Armando La Rosa Giraud, a recent graduate computer science student at the University of Central Florida. With a strong passion for full-stack application development, game development, and algorithm design, I am excited to transition into the professional world.
+                Hello! I’m Diego, a Computer Science graduate from the University of Central Florida and former Software Engineer at Morgan Stanley. With professional experience in both frontend and backend development, I am excited to continue my career.
                 </p>
                 <p className="aboutMeInfo">
-                    Throughout my projects, I have adapted these key principles:                  
-                  <ul>
-                    <li>Break tasks into smaller sub-problems and then combine the solutions to create a cohesive whole.</li>
-                    <li>Clean code is better than smart complex code.</li>
-                    <li>In team projects, communicate effectively and be the team player that the team needs to succeed.</li>
-                    <li>Making mistakes is a natural part of the learning process, but failing to learn from those mistakes is not acceptable.</li>
-                  </ul>
+                I consider myself a motivated and responsible engineer and teammate. I value collaboration, clear communication, punctuality, and shared learning. What I enjoy the most about software development is the sense of accomplishment after solving challening problems.
                 </p>
                 <p className="aboutMeInfo">
-                  In my free time, I like to keep honing my programming skills by working on side projects such as video games and full-stack applications. When I am not coding, I usually spend my time playing video games, playing guitar, or learning Japanese.
+                Some of my achievements include successfully migrating a complex legacy application to a modern framework at Morgan Stanley and developing, from the ground up, the frontend of a web application for the Humanities Department at UCF. I’m also proud to have graduated Summa Cum Laude from the University of Central Florida.
                 </p>
                 <p className="aboutMeInfo">
-                  I am excited to start my career in software engineering. I am eager to work in dynamic environments where I can contribute to innovative projects and continue to grow my technical skills. Feel free to reach out to me via email or LinkedIn.
+                  In my next role, I am looking for a team where I can feel a strong sense of belonging and contribute to different layers of the tech stack. I’m flexible about location and work setup — what matters most to me is joining a place where I can continue learning and grow together with the company on the long term.
+                </p>
+                <p className="aboutMeInfo">
+                I’m excited to see what the next chapter of my career brings. If my background resonates with your team, feel free to reach out via email or LinkedIn.
                 </p>
               </Row>
             </Col>

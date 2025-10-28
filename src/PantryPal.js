@@ -10,9 +10,9 @@ const PantryPal = ({title, subtitle, githubLink, storyText, challenges, learning
         subtitle="PantryPal"
         githubLink="https://github.com/L7R-a/PantryPal"
         storyText={[
-          "This project was inspired by participating in the Knight Hacks VII hackathon at UCF. During the event, we considered many potential options, but we decided to go with the idea of a pantry app that would help people to keep track of their groceries and help them to find recipes with the ingredients they have soon to expire. The main reason for this was that we noticed that not so many people have addressed this issue, and we thought it would be a good idea to help people to save money and reduce food waste.",
-          "PantryPal's development was very interesting because of the 36 hours time constraints, the in-person coding environment, and also the new technologies that we decided to work with. More in detail, for the frontend in addition to React, I was attempting to use Firebase for the logging system and my teammate was trying to use Django for the first time in the backend. Setting up these two features took us more time than what it should have, making us be running out of time. Because of that, the project barely met the Minimun Viable Product set by the team but we still presented it to the judges. ",
-          "Despite the challenges, we thoroughly enjoyed the event and the rush of adrenaline it brought. It was a fantastic opportunity to meet new people, explore new technologies, and have fun. I’m excited about participating in similar events in the future. Ultimately, one of my teammates continued developing the application, and it is now fully functional and available for use as intended."        
+          "During my time at Mthree, I collaborated with a team to develop an email notification system for traffic accidents as the final project of the apprenticeship program. Users could subscribe to updates for a selected city through a React web app, and the system would automatically send email alerts whenever an accident was reported.",
+          "I came up with the idea and proposed it to my team and mentor, who agreed it was a great way to showcase what we had learned throughout the program. The idea was inspired by my own experience commuting to work and school, where unexpected accidents could easily cause delays. This system was designed to help users stay informed and plan their routes more efficiently.",
+          "The project was built using a Java Spring Boot backend following an MVC architecture, along with React, MySQL, JUnit, JavaMail, and a third-party traffic API. My main contributions included developing the backend RESTful APIs for user management, implementing unit tests, integrating the email notification logic, and contributing to the frontend development."
         ]}
 
       challenges={[
@@ -56,9 +56,7 @@ const PantryPal = ({title, subtitle, githubLink, storyText, challenges, learning
           }
         
       ]}
-      websiteLink="https://www.pantrypal.design/"
       learningText={[ 
-        //  "In the end, we didn't win any prizes, but we learned a lot about the importance of time management, the importance of having a plan B, and the importance of knowing the technologies that we are going to use before the event. We also learned that we should have focused on the main features of the app and not on the secondary features that we wanted to implement."
 "Ultimately, we learned the importance of having a backup plan in advance, as it could have saved us valuable time. We also gained insights into effective time management, particularly the need to set clear timelines to avoid spending excessive time on individual tasks. While exploring new technologies was exciting, we realized the importance of prioritizing the core features of the project before focusing on secondary, albeit intriguing, enhancements. Additionally, we recognized the value of coming better prepared to such events, with a well-defined plan and all necessary tools set up beforehand. Lastly, we developed a deeper understanding of teamwork—how to support one another, debug each other’s code, and collaborate effectively under tight deadlines."
 
 

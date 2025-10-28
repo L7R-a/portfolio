@@ -75,8 +75,21 @@ const OtherProjectDisplay = ({
               </TabPanel>
               <TabPanel header="Learning Outcome" rightIcon="pi pi-check-circle ml-2">
                 <div className="scrollable-content">
-                  {learningText.map((line, index) => (
-                    <p key={index}>{line}</p>
+                  {Array.isArray(learningText) && learningText.map((item, index) => (
+                    typeof item === "string" ? (
+                      // Handle simple text version
+                      <p key={index} className="whitespace-pre-line">{item}</p>
+                    ) : (
+                      // Handle detailed object version
+                      <div key={index} className="mb-3">
+                        <strong>{item.title}</strong>
+                        <ul>
+                          {item.details.map((detail, idx) => (
+                            <li key={idx}>{detail}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )
                   ))}
                 </div>
               </TabPanel>
@@ -84,7 +97,7 @@ const OtherProjectDisplay = ({
                 <div className="scrollable-content">
                   {challenges.map((item, index) => (
                     <div key={index} className="mb-3">
-<strong>{item.title}</strong>
+                      <strong>{item.title}</strong>
                       <ul>
                         <li>
                           <strong>Challenge:</strong> {item.challenge}
@@ -97,13 +110,15 @@ const OtherProjectDisplay = ({
                   ))}
                 </div>
               </TabPanel>
-              <TabPanel header="GitHub" rightIcon="pi pi-github ml-2">
-                <div className="scrollable-content">
-                  Clicking this tab will open the GitHub link in a new tab.
-                </div>
-              </TabPanel>
+              {githubLink && (
+                <TabPanel header="GitHub" rightIcon={<FaGithub className="ml-2" />}>
+                  <div className="scrollable-content">
+                    Clicking this tab will open the GitHub repository in a new tab.
+                  </div>
+                </TabPanel>
+              )}
               {websiteLink && (
-                <TabPanel header="Website" rightIcon={<MdOutlineWeb  className="ml-2" />}>
+                <TabPanel header="Website" rightIcon={<MdOutlineWeb className="ml-2" />}>
                   <div className="scrollable-content">
                     Clicking this tab will open the website link in a new tab.
                   </div>

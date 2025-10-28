@@ -21,6 +21,8 @@ import PalP from "./Images/PalPic.png";
 import ScheduleP from "./Images/SchedulesPic.png";
 import VMP from "./Images/VMPic.png";
 import BKP from "./Images/MazePic.png";
+import Java from "./Images/java.png";
+import MthreeEmail from "./Images/mthree_email.png";
 import { SiUnrealengine } from "react-icons/si";
 import { FaUnity } from "react-icons/fa6";
 import { FaJava } from "react-icons/fa";
@@ -28,107 +30,62 @@ import { FaMicrochip } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { TiHtml5 } from "react-icons/ti";
 import { RiStackFill } from "react-icons/ri";
+import { FaGear } from "react-icons/fa6";
 
 const Projects = () => {
-  const webProjects = [
+  const professionalExperiences = [
     {
-      name: "Network Analysis",
-      image: CapstoneP, // Replace with your image path
-      role: "Frontend Developer",
-      link: "#Capstone",
-      icon: <FaReact />
+      name: "Morgan Stanley",
+      image: Java, 
+      role: "Backend Developer",
+      link: "#MorganStanley",
+      icon: <FaGear />
     },
     {
-      name: "Guitar Enthusiast",
-      image: GuitarP, // Replace with your image path
+      name: "Mthree",
+      image: MthreeEmail, 
       role: "Full-stack Developer",
-      link: "#GuitarEnthusiast",
+      link: "#Mthree",
       icon: <RiStackFill />
     },
     {
+      name: "University of Central Florida",
+      image: CapstoneP, 
+      role: "Frontend Developer",
+      link: "#Capstone",
+      icon: <FaReact />
+    }
+  ];
+
+  const academics = [
+    {
       name: "Virtual Closet",
-      image: MERNP, // Replace with your image path
+      image: MERNP, 
       role: "Full-stack Developer",
       link: "#VirtualVogue",
       icon: <RiStackFill />
     },
     {
-      name: "PantryPal",
-      image: PalP, // Replace with your image path
-      role: "Frontend Developer",
-      link: "#PantryPal",
-      icon: <FaReact/>
-    },
-    {
       name: "Contact Manager",
-      image: LAMPP, // Replace with your image path
+      image: LAMPP,
       role: "Frontend Developer",
       link: "#ContactManager",
       icon: <TiHtml5 />
     },
-    {
-      name: "Portfolio",
-      image: ThisWebP, // Replace with your image path
-      role: "Frontend Developer",
-      link: "#PortfolioApp",
-      icon: <FaReact />
-    },
-   
-  ];
-
-  const gameProjects = [
-      {
-        name: "Blaster",
-        image: OnlineP, // Replace with your image path
-        role: "Unreal Engine Developer",
-        link: "#OnlineMultiplayer",
-        icon: <SiUnrealengine />
-      },
-      {
-        name: "Magic Gears",
-        image: RPGP, // Replace with your image path
-        role: "Unity Developer",
-        link: "#RPG",
-        icon: <FaUnity />
-      },
-      {
-        name: "Sun Striker",
-        image: GameJamP, // Replace with your image path
-        role: "Unity Developer",
-        link: "#GameJam",
-        icon: <FaUnity />
-      },
       {
         name: "Virtual Reality",
-        image: VRP, // Replace with your image path
+        image: VRP, 
         role: "VR Developer",
         link: "#VRProjects",
         icon: <FaUnity />
       },
-      {
-        name: "Belica",
-        image: SinglePlayerP, // Replace with your image path
-        role: "Unreal Engine Developer",
-        link: "#SinglePlayerShooter",
-        icon: <SiUnrealengine />
-      },
-      {
-        name: "Tanks",
-        image: TankP, // Replace with your image path
-        role: "Unreal Engine Developer",
-        link: "#Tanks",
-        icon: <SiUnrealengine />
-      },
-      {
-        name: "Bulls Cows",
-        image: FirstGameP, // Replace with your image path
-        role: "Unreal Engine Developer",
-        link: "#WordGame",
-        icon: <SiUnrealengine />
-      }
-  ];
-
-  const otherProjects = [
+    {
+        name: "Magic Gears",
+        image: RPGP, 
+        role: "Unity Developer",
+        link: "#RPG",
+        icon: <FaUnity />
+    },
     {
       name: "College Schedule Management System",
       image: ScheduleP, 
@@ -157,6 +114,66 @@ const Projects = () => {
       link: "#VM",
       icon: <FaMicrochip />
     }
+  ];
+
+  const personalProjects = [
+    {
+      name: "Guitar Enthusiast",
+      image: GuitarP, 
+      role: "Full-stack Developer",
+      link: "#GuitarEnthusiast",
+      icon: <RiStackFill />
+    },
+      {
+        name: "Blaster",
+        image: OnlineP, 
+        role: "Unreal Engine Developer",
+        link: "#OnlineMultiplayer",
+        icon: <SiUnrealengine />
+      },
+    {
+      name: "Portfolio",
+      image: ThisWebP, 
+      role: "Frontend Developer",
+      link: "#PortfolioApp",
+      icon: <FaReact />
+    },
+    {
+      name: "PantryPal",
+      image: PalP,
+      role: "Frontend Developer",
+      link: "#PantryPal",
+      icon: <FaReact/>
+    },
+      {
+        name: "Sun Striker",
+        image: GameJamP,
+        role: "Unity Developer",
+        link: "#GameJam",
+        icon: <FaUnity />
+      },
+    {
+        name: "Belica",
+        image: SinglePlayerP, 
+        role: "Unreal Engine Developer",
+        link: "#SinglePlayerShooter",
+        icon: <SiUnrealengine />
+      },
+      {
+        name: "Tanks",
+        image: TankP,
+        role: "Unreal Engine Developer",
+        link: "#Tanks",
+        icon: <SiUnrealengine />
+      },
+      {
+        name: "Bulls Cows",
+        image: FirstGameP,
+        role: "Unreal Engine Developer",
+        link: "#WordGame",
+        icon: <SiUnrealengine />
+      }
+
   ];
 
   const itemTemplate = (data) => {
@@ -228,13 +245,13 @@ const Projects = () => {
         <Row className="BottomAbout">
           <Row>
             <Col>
-                <DataScroller value={webProjects} itemTemplate={itemTemplate} rows={6} inline scrollHeight="650px" buffer={0.4} header="Web Applications" />
+                <DataScroller value={professionalExperiences} itemTemplate={itemTemplate} rows={3} inline scrollHeight="650px" buffer={0.4} header="Professional Experience" />
             </Col>
             <Col>
-                <DataScroller value={gameProjects} itemTemplate={itemTemplate} rows={7} inline scrollHeight="650px" buffer={0.4} header="Videogames" />
+                <DataScroller value={academics} itemTemplate={itemTemplate} rows={7} inline scrollHeight="650px" buffer={0.4} header="Academics" />
             </Col>
             <Col>
-                <DataScroller value={otherProjects} itemTemplate={itemTemplate} rows={4} inline scrollHeight="650px" buffer={0.4} header="Other Projects" />
+                <DataScroller value={personalProjects} itemTemplate={itemTemplate} rows={10} inline scrollHeight="650px" buffer={0.4} header="Personal Projects" />
             </Col>
           </Row>
         </Row>

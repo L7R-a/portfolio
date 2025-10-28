@@ -26,6 +26,8 @@ import Capstone from "./Capstone";
 import './App.css';
 import Guitar from "./GuitarEnthusiast";
 import Pal from "./PantryPal";
+import MorganStanley from "./MorganStanley";
+import Mthree from "./Mthree";
 
 function App() {
   return (
@@ -56,6 +58,8 @@ function App() {
         <Route path="/Schedules" element={<Schedules />} />
         <Route path="/GuitarEnthusiast" element={<Guitar />} />
         <Route path="/PantryPal" element={<Pal />} />
+        <Route path="/MorganStanley" element={<MorganStanley />} />
+        <Route path="/Mthree" element={<Mthree />} />
       </Routes>
     </Router>
   );

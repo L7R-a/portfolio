@@ -6,23 +6,23 @@ import "./Projects.css";
 const Capstone = () => {
   return (
     <ProjectDisplay
-      title="Capstone Project"
+      title="University of Central Florida"
       subtitle="Network Visualization Analysis"
       videoSrc="https://www.youtube.com/embed/YtRzIC60dlU"
       githubLink="https://github.com/L7R-a/REPRINT"
       storyText={[
-                    "This project was the final project of my Bachelors' degree. It was proposed by the History department of the University of Central Florida, and funded by the National Archives. The main idea of this project was to create a full stack application that would help historian researchers to visualize and analyze data that was inside of a database as a network or a gallery. More in detail, the data is about the relationships and the letters that individuals sent to each other in the US and other European countries in 17th and 18th centuries.",
-                    "The website was completed with a team of 4 members and we were only required to design the frontend and API endpoints of the project; we were not in charge of the database. Some of the technologies we used were React.js, Prime React library, Sigma.js, CSS, Express.js, AWS services, and MySQL workbench to view the databse.",
-                    "The roles of the project were distributed as follows: A team member was in charge of the API endpoints, another member was in charge of the network graph, the last member was in charge of the query tool, and I was in chrage of doing the sidecars, styling, and the gallery page of the website.",
-                    "The project was completed in 5 months, presented it to a jury of professors and researchers, and passed with documentation to an upcomming team that will keep developing the website.",  
+                    "In this project, the sponsor was the History and Humanities department of the University of Central Florida, and it was funded by the National Archives. The goal of this project was to create a full stack application that would help historian researchers to visualize and analyze data that was inside of a database as a network or a gallery. More in detail, the data is about the relationships and the letters that individuals sent to each other in the US and other European countries in 17th and 18th centuries.",
+                    "Some of the technologies we used were React.js, Prime React library, Sigma.js, CSS, Express.js, AWS services, and MySQL workbench to view the databse. My main focus in this project was making all the frontend of the application except for the network graph itself, such as the sidecars, prototypes, styling, query page, and the gallery page of the website.",
+                    "We worked very closely with the sponsors to ensure we were meeting their requirements and expectations throughout all stages of the SDLC. Our team followed Agile and Scrum methodologies — conducting regular sprint planning, stand-up meetings, and retrospectives to stay aligned, adapt quickly to feedback, and continuously improve our deliverables.",                    
+                    "The project was completed and presented to a jury of professors and researchers of the department, and passed with documentation to an upcomming team that will keep developing the website.",  
                 ]}
       const learningText = {[
                     {
-                      title: "Customer Oriented Focus",
+                      title: "Client Oriented Focus",
                       details: [
-                        "Learned how to work with a sponsor/customer and how to meet their requirements",
+                        "Learned how to work with a sponsor/client and how to meet their requirements",
                         "Had multiple meetings with the sponsors to show the progress, get feedback, and next steps",
-                        "Understood the importance of knowing customers' expectations and tendencies when using websites"
+                        "Understood the importance of knowing clients' expectations and tendencies when using websites"
                       ]
                     },
                     {

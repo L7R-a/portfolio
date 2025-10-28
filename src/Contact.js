@@ -48,10 +48,10 @@ const Contact = () => {
             <Row className="contactRow">
               <Col md={8} className="contactCol">
                 <div className="d-flex align-items-center hover-effect mt-3 ml-8">
-                  <a href="mailto:diegolag2003@gmail.com" target="_blank" rel="noopener noreferrer" className="no-underline d-flex align-items-center">
+                  <a href="mailto:larosagirauddiego@gmail.com" target="_blank" rel="noopener noreferrer" className="no-underline d-flex align-items-center">
                     <IoIosMail className="landingIcon" size={48} />
                     <h4 className="contactTextEmail">
-                      diegolag2003@gmail.com
+                      larosagirauddiego@gmail.com
                     </h4>
                   </a>
                 </div>
